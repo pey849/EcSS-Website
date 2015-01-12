@@ -15,13 +15,15 @@ require 'header.php';
 	    //foreach($tumblr['reponse'] as $posts){
 	    //	print_r($posts);
 	    //}
-	    foreach($tumblr['response']['posts'] as $posts){
+	    $index=0;
+	    foreach($tumblr['response']['posts'] as $posts)
+	    {
 		$title = $posts['title'];
 		$date = $posts['date'];
 		$body = $posts['body'];
 		$pattern = "/src=[\"']?([^\"']?.*(png|jpg|gif))[\"']?/i";
 		$morePics = true;
-		$index=0;
+		
 	       
 		/*===============Block with text wrap=============
 		 
@@ -70,8 +72,17 @@ require 'header.php';
 			echo str_replace("<img", "<div class=\"picture\"><img", $body);
 		    echo "</div>";
 		echo "</div>";
+		
+		$index++;
+		//display the 10 latest posts
+		if($index==10)
+		{
+		    echo "ehllpo";
+		    break;
+		}	
 	    }
 		
+	    
 	    
 	?>
 

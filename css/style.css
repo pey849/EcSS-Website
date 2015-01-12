@@ -148,8 +148,7 @@ footer, .push {
 }
 
 .picture img {
-	float: left;
-	padding: 10px;
-	height: 25%;
-	width:25%;
+	float:left;
+	padding: 5px;
+	width:20%;
 }
