@@ -61,7 +61,7 @@ require 'header.php';
 		//$body = preg_replace("<img", "<div class=\"picture\"><img", $body);
 		echo "<div class=\"row\">";
 		    echo "<div class=\"col-md-12\">";
-			echo "<h1>".$title."</h1>";
+			echo "<h1 class=\"blogTitle\">".$title."</h1>";
 		    echo "</div>";
 		    
 		    echo "<div class=\"col-md-12\">";
