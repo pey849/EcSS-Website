@@ -1,0 +1,155 @@
+.huge {
+	font-size: 60px;
+	text-align: center;
+}
+
+.float-left {
+	float: left;
+}
+
+.exec-img {
+	margin: 20px;
+}
+
+.black-bg {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.schedule {
+	background-color: rgba(0,0,0,0.6);
+}
+
+.exec-title {
+	margin-top: 20px;
+}
+
+.key-bg {
+	background-image: url("../imgs/fresh_water.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.event-bg {
+	background-image: url("../imgs/fresh_water.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 64px;
+}
+
+body {
+	background-color: black;
+	margin-top: 0px;
+}
+
+nav .navbar {
+	background-color: #00ff80;
+	position: fixed;
+	top: 0;
+	font-size: 24px;
+}
+
+nav a {
+	color: #FFF;
+}
+
+nav a:hover {
+	color: #00ff80;
+}
+
+
+
+
+.social {
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-left: 3px;
+}
+
+body a {
+	color: #00ff80;
+}
+
+nav a {
+	color: #fff;
+}
+
+
+
+footer {
+	border-top: 2px solid white;
+	background-color: black;
+}
+
+footer .margins {
+	margin-right: 160px;
+	margin-left: 160px;
+}
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0px auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+
+.nav-select {
+	color: #000;
+}
+
+#curpage > a {
+	color: #00ff80;
+}
+
+.padded {
+	padding: 10px 10px 10px 10px;
+}
+
+.row {
+	padding-bottom: 40px;
+}
+
+.black {
+	background-color: black;
+	padding-top: 60px;
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+
+}
+
+.content {
+	margin-top: 70px;
+}
+
+.big-logo {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.page-title {
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.picture img {
+	float: left;
+	padding: 10px;
+	height: 25%;
+	width:25%;
+}
