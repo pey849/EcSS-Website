@@ -45,19 +45,23 @@ require 'header.php';
         <div class="row">
             <div class="col-sm-4" style="text-align: justify">
                 <img class="img-circle img-responsive img-center" src="imgs/google.png" alt="">
-                <h2>Marketing Box #1</h2>
-                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+                <h2>Box #1</h2>
+                <p>Lorem ipsum dolor sit amet, veniam sanctus dolores has eu, duo ei magna sanctus efficiendi. Vix eu putant torquatos neglegentur, ea vel minim alienum fastidii. Nibh homero dolore in eam. An pro aeque mucius consectetuer, in nec virtute intellegat quaerendum. Pri cu cibo facilisis. Diceret rationibus cu nec. Ius ut elit epicurei, ne natum putant detraxit pro, te brute habemus elaboraret vel.
+                    Has id corrumpit deterruisset. Detracto antiopam abhorreant at pri. Cum ea aperiri prompta apeirian, mel et appetere sententiae. Vis ne doctus oblique imperdiet, liber errem ludus quo eu. Ea sanctus forensibus mel.
+                </p>
             </div>
             <div class="col-sm-4" style="text-align: justify">
                 <img class="img-circle img-responsive img-center" src="imgs/Drive.png" alt="">
-                <h2>Marketing Box #2</h2>
-                <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-            </div>
+                <h2>#2</h2>
+                <p>Lorem ipsum dolor sit amet, veniam sanctus dolores has eu, duo ei magna sanctus efficiendi. Vix eu putant torquatos neglegentur, ea vel minim alienum fastidii. Nibh homero dolore in eam. An pro aeque mucius consectetuer, in nec virtute intellegat quaerendum. Pri cu cibo facilisis. Diceret rationibus cu nec. Ius ut elit epicurei, ne natum putant detraxit pro, te brute habemus elaboraret vel.
+                    Has id corrumpit deterruisset. Detracto antiopam abhorreant at pri. Cum ea aperiri prompta apeirian, mel et appetere sententiae. Vis ne doctus oblique imperdiet, liber errem ludus quo eu. Ea sanctus forensibus mel.
+                </p></div>
             <div class="col-sm-4" style="text-align: justify">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #3</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-            </div>
+                <img class="img-circle img-responsive img-center" src="imgs/skull.png" alt="">
+                <h2>#3</h2>
+                <p>Lorem ipsum dolor sit amet, veniam sanctus dolores has eu, duo ei magna sanctus efficiendi. Vix eu putant torquatos neglegentur, ea vel minim alienum fastidii. Nibh homero dolore in eam. An pro aeque mucius consectetuer, in nec virtute intellegat quaerendum. Pri cu cibo facilisis. Diceret rationibus cu nec. Ius ut elit epicurei, ne natum putant detraxit pro, te brute habemus elaboraret vel.
+                    Has id corrumpit deterruisset. Detracto antiopam abhorreant at pri. Cum ea aperiri prompta apeirian, mel et appetere sententiae. Vis ne doctus oblique imperdiet, liber errem ludus quo eu. Ea sanctus forensibus mel.
+                </p></div>
         </div>
     
     
