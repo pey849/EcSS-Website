@@ -2,7 +2,7 @@
 require 'header.php';
 ?>
 
-<div class="event-bg">
+<div class="key-bg">
     <h1 class="center page-title">Executives</h1>
 </div>
 
