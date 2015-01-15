@@ -1,19 +1,20 @@
 <!DOCTYPE html>
+	
+	
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href='http://fonts.googleapis.com/css?family=Noticia+Text|Russo+One|Merriweather:300|Cousine|Graduate|Bowlby+One+SC|PT+Mono' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Noticia+Text|Russo+One|Montserrat|Days+One' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Quicksand|Squada+One|Source+Code+Pro|Alegreya+Sans+SC|Roboto' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/csss.js"></script>
-
+		
+		
 		<link rel="stylesheet" type="text/css" href="css/animations.css">
 		<link rel="stylesheet" type="text/css" href="css/objectVisibility.css">
 
@@ -31,7 +32,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.php"><img src="imgs/EcSS3.png" width="35%" height="125%" id="logo"></a>
+					<a class="navbar-brand" href="index.php"><img src="imgs/EcSS3.png" width="35%" height="150%" id="logo"></a>
 				</div>
 
 				<?php

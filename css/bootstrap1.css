@@ -1,3 +1,4 @@
+  
 /*!
  * Bootstrap v3.3.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
@@ -897,9 +898,9 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.42857143;
-  color: #ffffff;
+  color: #FFF;
   background-color: #ffffff;
 }
 input,
@@ -911,12 +912,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #E2BBED;
+  color: #FFF;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #8600AD;
+  color: #000;
   text-decoration: underline;
 }
 a:focus {
@@ -1034,8 +1035,8 @@ h2,
 .h2,
 h3,
 .h3 {
-
-  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 h1 small,
 .h1 small,
@@ -1399,14 +1400,12 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1060px;
   }
 }
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .row {
   margin-left: -15px;
@@ -2063,7 +2062,6 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -2121,7 +2119,7 @@ th {
   background-color: #f9f9f9;
 }
 .table-hover > tbody > tr:hover {
-  background-color: #f5f5f5;
+  background-color: #42C5BE;
 }
 table col[class*="col-"] {
   position: static;
@@ -2249,7 +2247,7 @@ table th[class*="col-"] {
     margin-bottom: 15px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 1px solid #dddddd;
+    border: 1px solid transparent;
   }
   .table-responsive > .table {
     margin-bottom: 0;
@@ -3225,7 +3223,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 20px;
   text-align: left;
-  background-color: #000;
+  background-color: #42C5BE;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -3249,14 +3247,14 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #E2BBED;
+  color: #FFF;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
-  background-color: #f5f5f5;
+
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -3316,7 +3314,7 @@ tbody.collapse.in {
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
-  border-bottom: 4px solid blue;
+  border-bottom: 4px solid;
   content: "";
 }
 .dropup .dropdown-menu,
@@ -3692,7 +3690,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-  background-color: #000;
+  background-color: #42C5BE;
   border-color: #428bca;
 }
 .nav .nav-divider {
@@ -3860,7 +3858,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
   border: 1px solid transparent;
   z-index: 1000;
-  background-color: #000;
+  background-color: #000000;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4003,6 +4001,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  background-color: #000;
 }
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
@@ -4014,6 +4013,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+  background-color: #42C5BE;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4053,6 +4053,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 20px;
   }
 }
 .navbar-form {
@@ -4860,9 +4861,6 @@ a.thumbnail.active {
 .media {
   margin-top: 15px;
 }
-.media:first-child {
-  margin-top: 0;
-}
 .media-right,
 .media > .pull-right {
   padding-left: 10px;
@@ -4886,6 +4884,7 @@ a.thumbnail.active {
 .media-heading {
   margin-top: 0;
   margin-bottom: 5px;
+  color: #42C5BE;
 }
 .media-list {
   padding-left: 0;

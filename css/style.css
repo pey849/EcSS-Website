@@ -23,21 +23,42 @@
 	margin-top: 20px;
 }
 
+@media (min-width:800px) {
 .key-bg {
 	background-image: url("../imgs/fresh_water.jpg");
 	background-attachment: fixed;
 	background-size: 100%;
+	background-position: center;
+}
 }
 
-.event-bg {
+.key-bg {
+	background-color: #000;
+}
+
+.header-bg {
+	background-color: #000;
+}
+
+@media (min-width:800px) {
+.header-bg {
 	background-image: url("../imgs/fresh_water.jpg");
-	background-attachment: fixed;
 	background-size: 100%;
+	background-position: center;
+}
 }
 
 h1 {
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 64px;
+}
+
+@media (max-width:800px) {
+h1 {
+	font-family: 'Arial', sans-serif;
+	font-size: 50px;
+	color: #42C5BE;
+}
 }
 
 body {
@@ -46,7 +67,7 @@ body {
 }
 
 nav .navbar {
-	background-color: #00ff80;
+	background-color: #000;
 	position: fixed;
 	top: 0;
 	font-size: 24px;
@@ -57,11 +78,12 @@ nav a {
 }
 
 nav a:hover {
-	color: #00ff80;
+	color: #000;
 }
 
-
-
+nav a:active {
+	color: #000;
+}
 
 .social {
 	height: 40px;
@@ -70,15 +92,30 @@ nav a:hover {
 	margin-left: 3px;
 }
 
-body a {
-	color: #00ff80;
+.content a {
+	color: #fff;
+}
+
+.content a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.company a {
+	color: #42C5BE;
+}
+
+.company a:hover {
+	color: #fff;
 }
 
 nav a {
 	color: #fff;
 }
 
-
+nav li {
+	border-top: 4px solid #42C5BE;
+}
 
 footer {
 	border-top: 2px solid white;
@@ -88,6 +125,14 @@ footer {
 footer .margins {
 	margin-right: 160px;
 	margin-left: 160px;
+}
+
+footer a {
+	color: #42C5BE;
+}
+
+footer a:hover {
+	color: #fff;
 }
 
 * {
@@ -108,18 +153,19 @@ footer, .push {
 
 .nav-select {
 	color: #000;
+	border-top: 4px solid #000;
 }
 
 #curpage > a {
-	color: #00ff80;
+	color: black;
 }
 
 .padded {
 	padding: 10px 10px 10px 10px;
 }
 
-.row {
-	padding-bottom: 40px;
+.col-md-6 {
+	margin-bottom: 40px;
 }
 
 .black {
@@ -143,8 +189,17 @@ footer, .push {
 }
 
 .page-title {
-	padding-top: 100px;
-	padding-bottom: 70px;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.navbar {
+	padding-bottom: 4px;
+}
+
+.comp-logo {
+	float: left;
+	padding-right: 20px;
 }
 
 .picture img {
