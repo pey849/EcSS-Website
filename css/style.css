@@ -21,6 +21,7 @@
 
 /*========= Banner =========*/
 
+/*Only applies when content is 800px all around*/
 @media (min-width:800px) {
 .key-bg {
 	background-image: url("../imgs/fresh_water.jpg");
@@ -30,6 +31,7 @@
 }
 }
 
+/*index page's banner*/
 .big-logo {
 	padding-top: 150px;
 	padding-bottom: 100px;
@@ -87,40 +89,26 @@ html, body {
 
 
 /*========= Nav bar =========*/
-nav .navbar {
-	background-color: #000;
-	position: fixed;
-	top: 0;
-	font-size: 24px;
-}
-
-nav a {
-	color: #FFF;
-}
 
 nav a:hover {
-	color: #000;
+	color: #00ff80;
 }
 
-nav a:active {
-	color: #000;
-}
 
-nav a {
-	color: #fff;
-}
-
+/*makes the nav selections stay in place when not on curr page*/
 nav li {
-	border-top: 4px solid #42C5BE;
+	border-top: 4px solid black;
 }
 
+/*color of bar on top of curr page of nav bar*/
 .nav-select {
-	color: #000;
-	border-top: 4px solid yellow;
+	color: #00ff80;
+	border-top: 4px solid #00ff80;
 }
 
+/*style only applies curr page and color is for the text*/
 #curpage > a {
-	color: black;
+	color: #00ff80;
 }
 
 .navbar {
