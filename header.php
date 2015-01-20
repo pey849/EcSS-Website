@@ -48,7 +48,7 @@
 						<li <?php if ($page == '/Course_Guide.php') echo 'class="hover-bar nav-select" id="curpage"'; else echo 'class="hover-bar"' ?>><a href="Course_Guide.php">Course Guide</a></li>
 						<li <?php if ($page == '/execs.php') echo 'class="hover-bar nav-select" id="curpage"'; else echo 'class="hover-bar"' ?>><a href="execs.php">Executives</a></li>
 						<li <?php if ($page == '/blog.php') echo 'class="hover-bar nav-select" id="curpage"'; else echo 'class="hover-bar"' ?>><a href="blog.php">Blog</a></li>
-						
+						<li <?php if ($page == '/blog2.php') echo 'class="hover-bar nav-select" id="curpage"'; else echo 'class="hover-bar"' ?>><a href="blog2.php">Business</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container -->

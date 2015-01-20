@@ -59,26 +59,28 @@ require 'header.php';
 		
 		//$body = preg_replace("/<img[^>]+\>/i", "<div class=\"picture\"><img", $body);
 		//$body = preg_replace("<img", "<div class=\"picture\"><img", $body);
-		echo "<div class=\"row\">";
-		    echo "<div class=\"col-md-12\">";
-			echo "<h1 class=\"blogTitle\">".$title."</h1>";
-		    echo "</div>";
-		    
-		    echo "<div class=\"col-md-12\">";
-			echo $date;
-		    echo "</div>";
-		    
-		    echo "<div class=\"col-md-12\">";
-			echo str_replace("<img", "<div class=\"picture\"><img", $body);
-		    echo "</div>";
-		echo "</div>";
-		
-		$index++;
-		//display the 10 latest posts
-		if($index==10)
-		{
-		    break;
-		}	
+                if(strpos($title, 'Picture')==true){
+                    echo "<div class=\"row\">";
+                        echo "<div class=\"col-md-12\">";
+                            echo "<h1 class=\"blogTitle\">".$title."</h1>";
+                        echo "</div>";
+                        
+                        echo "<div class=\"col-md-12\">";
+                            echo $date;
+                        echo "</div>";
+                        
+                        echo "<div class=\"col-md-12\">";
+                            echo str_replace("<img", "<div class=\"picture\"><img", $body);
+                        echo "</div>";
+                    echo "</div>";
+                    
+                    $index++;
+                    //display the 10 latest posts
+                    if($index==10)
+                    {
+                        break;
+                    }
+                }	
 	    }
 		
 	    
